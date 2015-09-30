@@ -1,10 +1,10 @@
 import expect from 'unexpected'
-import gearRatio from '../src/gearRatio'
-import gainRatio from '../src/gainRatio'
-import gearInches from '../src/gearInches'
-import development from '../src/development'
-import skidPatches from '../src/skidPatches'
-import speed from '../src/speed'
+import gearRatio from '../src/formulas/gearRatio'
+import gainRatio from '../src/formulas/gainRatio'
+import gearInches from '../src/formulas/gearInches'
+import development from '../src/formulas/development'
+import skidPatches from '../src/formulas/skidPatches'
+import speed from '../src/formulas/speed'
 
 describe('46/16 gearing', () => {
   var gearing = {

@@ -2,6 +2,7 @@
   "name": "bicycle-tools",
   "version": "1.0.0",
   "description": "A collection of formulas for gearing",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
     "compile": "babel -d lib/ src/",
