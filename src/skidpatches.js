@@ -5,7 +5,7 @@ var reduceRatio = (numerator, denominator) => {
 }
 
 export default (values, isAmbidextrous) => {
-  var { chainring, cog} = values
+  var { chainring, cog } = values
   var reduction = reduceRatio(chainring, cog)
   var skidpatches = cog / reduction;
 
