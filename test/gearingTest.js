@@ -10,24 +10,24 @@ describe('46/16 gearing', () => {
     chainring: 46,
     cog: 16,
     crank: 165,
-    wheelDiameter: 27
+    wheel: 622 // ISO
   }
 
   it('gearRatio should be 2.88', () => {
     expect(gearRatio(gearing), 'to be', 2.88)
   })
 
-  it('gain ratio should be 5.92', () => {
-    expect(gainRatio(gearing), 'to equal', 5.92)
-  });
+  it('gain ratio should be 5.42', () => {
+    expect(gainRatio(gearing), 'to equal', 5.42)
+  })
 
-  it('gear inches should be 78in', () => {
-    expect(gearInches(gearing), 'to equal', 78)
-  });
+  it('gear inches should be 70in', () => {
+    expect(gearInches(gearing), 'to equal', 70)
+  })
 
-  it('development should be 6.14m', () => {
-    expect(development(gearing), 'to equal', 6.14)
-  });
+  it('development should be 5.62m', () => {
+    expect(development(gearing), 'to equal', 5.62)
+  })
 
   it('skid patches should be 8', () => {
     expect(skidPatches(gearing), 'to equal', 8)

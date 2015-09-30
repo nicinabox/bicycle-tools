@@ -1,8 +1,6 @@
-const WHEEL_SIZE = 680
-
 export default (values) => {
-  var { chainring, cog, crank } = values
+  var { chainring, cog, crank, wheel } = values
 
-  var radiusRatio = WHEEL_SIZE / 2 / crank
+  var radiusRatio = wheel / 2 / crank
   return +(radiusRatio * chainring / cog).toFixed(2)
 }
