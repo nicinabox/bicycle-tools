@@ -11,6 +11,7 @@ Formuals use exact measurements (ISO) instead of nominal sizes, which may be mor
 * gearInches
 * gearRatio
 * skidpatches
+* speed
 
 ## Sizings
 
