@@ -1,0 +1,25 @@
+{
+  "name": "bicycle-tools",
+  "version": "1.0.0",
+  "description": "A collection of formulas for gearing",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicinabox/bicycle-tools.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicinabox/bicycle-tools/issues"
+  },
+  "homepage": "https://github.com/nicinabox/bicycle-tools#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.25",
+    "unexpected": "^9.16.0"
+  }
+}
