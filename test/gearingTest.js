@@ -13,7 +13,7 @@ describe('46/16 gearing', () => {
     wheel: 622 // ISO
   }
 
-  it('gearRatio should be 2.88', () => {
+  it('gear ratio should be 2.88', () => {
     expect(gearRatio(gearing), 'to be', 2.88)
   })
 
@@ -33,7 +33,7 @@ describe('46/16 gearing', () => {
     expect(skidPatches(gearing), 'to equal', 8)
   })
 
-  it('Ambidextrous skid patches should be 16', () => {
+  it('ambidextrous skid patches should be 16', () => {
     expect(skidPatches(gearing, true), 'to equal', 16)
   })
 })
