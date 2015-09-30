@@ -1,11 +1,11 @@
-e×port default [
+export default [
   [
     ['', 'Fractional Sizes'],
     [787, '36 inch'],
     [686, '32 inch'],
     [635, '28 × 1 1/2'],
     [622, '29 inch, 28 × 1 5/8 × 1 1/4'],
-    [630, '27 × anything (e×cept "27 five")'],
+    [630, '27 × anything (except "27 five")'],
     [571, '26 × 1 (650C)'],
     [597, '26 × 1 1/4, 26 × 1 3/8 (S-6)'],
     [590, '26 × 1 3/8 (E.A.3)'],
