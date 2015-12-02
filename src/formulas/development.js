@@ -1,5 +1,3 @@
-import gearInches from './gearInches'
-
 export default (values) => {
   var { chainring, cog, wheel } = values
   var circumference = wheel * Math.PI
